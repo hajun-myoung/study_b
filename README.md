@@ -7,7 +7,7 @@ Welcome, stranger. This repository is maked for study-blog of my learnt. It's si
 
 ## 공부한 내용의 목차 | list of learnt
 공부한 내용들의 목차를 다 적기에는 가독성이 떨어져서, 큼지막한 것들만 적어놓았어요. 상세 내용이 궁금하면 [스터디블로그 페이지]()를 방문해주세요.  
-If I list all of my learnt, readability of it will be terrible. So, I listed macro categories. Do you want to see more detail things? visit [study-blog]() plz.
+If I list all of my learnt, readability of it will be terrible. So, I listed macro categories. Do you want to see more detail things? visit [study-blog]().
 
 - HTML
   - 1.

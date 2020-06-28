@@ -15,11 +15,11 @@ module.exports={
     themeConfig:{
         locales:{
             '/':{
-                selectText: '언어',
+                selectText: '언어(Languages)',
                 label: '한국어'
             },
-            '/kr/':{
-                selectText: 'languages',
+            '/eng/':{
+                selectText: 'Languages(언어)',
                 label: 'English'
             }
         }
