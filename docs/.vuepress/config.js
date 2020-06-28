@@ -1,4 +1,5 @@
 module.exports={
+    base : '/studyb/',
     locales : {
         '/':{
             lang: 'ko-KR',
@@ -22,6 +23,20 @@ module.exports={
                 selectText: 'Languages(언어)',
                 label: 'English'
             }
-        }
+        },
+
+        nav :[
+            { text: 'Home', link: '/'},
+            {
+                text: 'Learnt',
+                items: [
+                    { text: 'HTML', link: '/html/'},
+                    { text: 'Python', link: '/python/'},
+                    { text: 'JS', link: 'javaScript'}
+                ]
+            }
+        ],
+
+        plugins: ['@vuepress/back-to-top'],
     }
 }
