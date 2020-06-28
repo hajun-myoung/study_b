@@ -1,4 +1,4 @@
 module.exports={
     title : "Hajun's summary of learnt",
-    description : 'Just playing'
+    description : 'Summary / Learning Processes of my studying'
 }
