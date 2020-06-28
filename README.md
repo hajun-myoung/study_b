@@ -2,7 +2,7 @@
 이곳은 공부한 것들을 정리하는 스터디 블로그를 위한 레포지토리입니다. 테크블로그와 유사하지만, 조금 달라요. 제 개인 공부 내용들이 정리되어 있다는 점에서요.  
 Welcome, stranger. This repository is maked for study-blog of my learnt. It's similar to tech-blog, but has little bit different. The contents are my 'personal' studied things.  
 
-## 주소 | 링크
+## 주소 | link
 [이 링크를 따라가세요. follow this link]()
 
 ## 공부한 내용의 목차 | list of learnt
