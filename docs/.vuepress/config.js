@@ -1,5 +1,5 @@
 module.exports={
-    base : '/studyB/',
+    base : '/study_b/',
     locales : {
         '/':{
             lang: 'ko-KR',
