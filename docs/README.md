@@ -13,3 +13,7 @@ features:
   details: 믹싱, EQ 밸런싱, 음향 등을 다룹니다. 프로그래밍과의 거리는 좀 있지만, 관심이 있어요.
 footer: MIT Licensed | Copyright © 2020 HajunMyoung
 ---  
+
+:::tip
+무언가 연락하고 싶은 게 있나요? audgkwns44@gmail.com 으로 부탁드려요!
+:::
