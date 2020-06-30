@@ -1,62 +1,15 @@
-# 뷰프레스 하위!  v.2006292358
+---
+home: true
 
-## img test  
-![An img](./img.png)  
-  
-## github style tables test
-| Tables | Are | Cool |
-|-|:-:|-:|
-|aaaaaaaaaa|aaaaaaaaaa|aaaaaaaaaaa|
-|left|center|right|  
+actionText: 블로그 관리 방법 →
+actionLink: /guide/
 
-## Emoji test
-:tada: :100:
-[Emoji list](https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.json)
-
-## table of contents
-[[toc]]  
-  
-## container test
-::: tip tipTitle
-tip test
-:::
-
-:::warning warningTitle
-warning test
-:::
-
-::: danger dangerTitle
-danger test
-:::
-
-::: details detailTitle?
-details test
-:::
-
-## systax Highlighting
-```
-just code
-```
-
-```js
-let words="i can choose lang"
-```
-
-```python
-py="life is too short, learn the python"
-```
-
-### Line Highlighting
-```js{2}
-let a="this is test code"
-let b="this is test code2"
-```
-
-## Accessing the page
-```md
-{{ $page }}
-```
-
-output:
-{{ $page }}
-
+features:
+- title: 공부한 것들/메이킹
+  details: 프로그래밍 언어, 메이킹을 위한 툴 등을 공부해서 정리해 놓았습니다. 
+- title: 프로젝트
+  details: 공부한 것들 +α 로 시도하는 프로젝트들입니다. 함께해요!
+- title: 엔지니어링
+  details: 믹싱, EQ 밸런싱, 음향 등을 다룹니다. 프로그래밍과의 거리는 좀 있지만, 관심이 있어요.
+footer: MIT Licensed | Copyright © 2020 HajunMyoung
+---  

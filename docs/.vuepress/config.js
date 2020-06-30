@@ -4,12 +4,12 @@ module.exports={
         '/':{
             lang: 'ko-KR',
             title : "하준's 학습블로그",
-            description : '공부한 내용들과 학습 과정을 정리해놓기 위한 블로그입니다.'
+            description : "Hajun's study-blog. WELCOME!"
         },
         '/eng/':{
             lang: 'en-US',
             title : "Hajun's study-blog",
-            description : 'Summary / Learning Processes of my studying'
+            description : "하준's 학습블로그"
         }
     },
 
@@ -25,32 +25,32 @@ module.exports={
                         text: '공부한 것들',
                         items: [
                             { text: '뷰프레스(VuePress)', items:[
-                                { text: '뷰프레스(VuePress)', link: '/vuepress/'}
+                                { text: '뷰프레스(VuePress)', link: '/src/vuepress/'}
                             ]},
                             { text: '프로그래밍 언어', items :
                                 [
-                                    { text: 'HTML', link: '/languages/html/'},
-                                    { text: 'Python', link: '/languages/python/'},
-                                    { text: 'JS', link: '/languages/javaScript/'}
+                                    { text: 'HTML', link: '/src/languages/html/'},
+                                    { text: 'Python', link: '/src/languages/python/'},
+                                    { text: 'JS', link: '/src/languages/javaScript/'}
                                 ]
                             },
                             { text: '메이킹', items:[
-                                { text: '아두이노', link: '/making/arduino/'},
-                                { text: '프로세싱', link: '/making/processing/'}
+                                { text: '아두이노', link: '/src/making/arduino/'},
+                                { text: '프로세싱', link: '/src/making/processing/'}
                             ]}
                         ]
                     },
                     {
                         text: '프로젝트',
                         items: [
-                            {text: '짐벌만들기', link: '/projects/gimabl/'},
-                            {text: '체크카드 만들기', link: '/projects/debit-card/'}
+                            {text: '짐벌만들기', link: '/src/projects/gimabl/'},
+                            {text: '체크카드 시스템 만들기', link: '/src/projects/debit-card/'}
                         ]
                     },
                     {
                         text: '엔지니어링',
                         items: [
-                            {text: '기본', link: '/engineering/basic/'}
+                            {text: '기본', link: '/src/engineering/basic/'}
                         ]
                     }
                 ],
@@ -66,32 +66,32 @@ module.exports={
                         text: 'Learnt',
                         items: [
                             { text: 'VuePress', items:[
-                                { text: 'VuePress', link: '/vuepress/'}
+                                { text: 'VuePress', link: '/src/vuepress/'}
                             ]},
                             { text: 'Programing Languages', items :
                                 [
-                                    { text: 'HTML', link: '/languages/html/'},
-                                    { text: 'Python', link: '/languages/python/'},
-                                    { text: 'JS', link: '/languages/javaScript/'}
+                                    { text: 'HTML', link: '/src/languages/html/'},
+                                    { text: 'Python', link: '/src/languages/python/'},
+                                    { text: 'JS', link: '/src/languages/javaScript/'}
                                 ]
                             },
                             { text: 'making', items:[
-                                { text: 'arduino', link: '/making/arduino/'},
-                                { text: 'processing', link: '/making/processing/'}
+                                { text: 'arduino', link: '/src/making/arduino/'},
+                                { text: 'processing', link: '/src/making/processing/'}
                             ]}
                         ]
                     },
                     {
                         text: 'Projects',
                         items: [
-                            {text: 'making Gimbal', link: '/projects/gimabl/'},
-                            {text: 'making DebitCard', link: '/projects/debit-card/'}
+                            {text: 'making Gimbal', link: '/src/projects/gimabl/'},
+                            {text: 'making DebitCard System', link: '/src/projects/debit-card/'}
                         ]
                     },
                     {
                         text: 'Engineering',
                         items: [
-                            {text: 'basic', link: '/engineering/basic/'}
+                            {text: 'basic', link: '/src/engineering/basic/'}
                         ]
                     }
                 ],
