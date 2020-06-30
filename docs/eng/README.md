@@ -15,5 +15,5 @@ footer: MIT Licensed | Copyright © 2020 HajunMyoung
 ---  
 
 :::tip
-Do you have something to notice me? contect with audgkwns44@gmail.com !
+Is there anything you want to contact? Please send it to audgkwns44@gmail.com !
 :::
