@@ -97,6 +97,20 @@ module.exports={
                 ],
             }
         },
+
         plugins: ['@vuepress/back-to-top'],
+
+        sidebar:[
+            {
+                title: '가이드',
+                path : '/guide/',
+                collapsable : false,
+                sidebarDepth : 2,
+                children: [
+                    '/guide/',
+                    '/guide/updateLog.md'
+                ]
+            }
+        ]
     }
 }
