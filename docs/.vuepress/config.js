@@ -105,9 +105,10 @@ module.exports={
                 title: '가이드',
                 path : '/guide/',
                 collapsable : false,
-                sidebarDepth : 2,
+                sidebarDepth : 3,
                 children: [
                     '/guide/',
+                    '/guide/direction.md',
                     '/guide/updateLog.md'
                 ]
             }
