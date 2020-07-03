@@ -29,9 +29,10 @@ module.exports={
                             ]},
                             { text: '프로그래밍 언어', items :
                                 [
-                                    { text: 'HTML', link: '/src/languages/html/'},
+                                    { text: 'HTML +α', link: '/src/languages/html +α/'},
                                     { text: 'Python', link: '/src/languages/python/'},
-                                    { text: 'JS', link: '/src/languages/javaScript/'}
+                                    { text: 'JS', link: '/src/languages/javaScript/'},
+                                    { text: 'C', link: '/src/languages/C/'}
                                 ]
                             },
                             { text: '메이킹', items:[
@@ -70,7 +71,7 @@ module.exports={
                             ]},
                             { text: 'Programing Languages', items :
                                 [
-                                    { text: 'HTML', link: '/src/languages/html/'},
+                                    { text: 'HTML +α', link: '/src/languages/html +α/'},
                                     { text: 'Python', link: '/src/languages/python/'},
                                     { text: 'JS', link: '/src/languages/javaScript/'}
                                 ]
@@ -100,6 +101,8 @@ module.exports={
 
         plugins: ['@vuepress/back-to-top'],
 
+        displayAllHeaders: false,
+
         sidebar:[
             {
                 title: '가이드',
@@ -110,6 +113,16 @@ module.exports={
                     '/guide/',
                     '/guide/direction.md',
                     '/guide/updateLog.md'
+                ]
+            },
+            {
+                title: '뷰프레스:소개',
+                path: '/src/vuepress/',
+                collapsable : false,
+                sidebarDepth : 3,
+                children: [
+                    '/src/vuepress/',
+                    '/src/vuepress/guidetransl.md'
                 ]
             }
         ]
