@@ -29,10 +29,10 @@ module.exports={
                             ]},
                             { text: '프로그래밍 언어', items :
                                 [
-                                    { text: 'HTML +α', link: '/src/languages/html +α/'},
+                                    { text: 'C', link: '/src/languages/c/'},
                                     { text: 'Python', link: '/src/languages/python/'},
-                                    { text: 'JS', link: '/src/languages/javaScript/'},
-                                    { text: 'C', link: '/src/languages/C/'}
+                                    { text: 'JS', link: '/src/languages/java_script/'},
+                                    { text: 'HTML +α', link: '/src/languages/html/'},
                                 ]
                             },
                             { text: '메이킹', items:[
@@ -51,7 +51,9 @@ module.exports={
                     {
                         text: '엔지니어링',
                         items: [
-                            {text: '기본', link: '/src/engineering/basic/'}
+                            {text: '음향', items:[
+                                {text: '학습기록: 음향기본', link: '/src/engineering/sound/basic/'},
+                            ]}
                         ]
                     }
                 ],
@@ -71,14 +73,14 @@ module.exports={
                             ]},
                             { text: 'Programing Languages', items :
                                 [
-                                    { text: 'HTML +α', link: '/src/languages/html +α/'},
+                                    { text: 'HTML +α', link: '/src/languages/html/'},
                                     { text: 'Python', link: '/src/languages/python/'},
-                                    { text: 'JS', link: '/src/languages/javaScript/'}
+                                    { text: 'JS', link: '/src/languages/java_script/'}
                                 ]
                             },
-                            { text: 'making', items:[
-                                { text: 'arduino', link: '/src/making/arduino/'},
-                                { text: 'processing', link: '/src/making/processing/'}
+                            { text: 'Making', items:[
+                                { text: 'Arduino', link: '/src/making/arduino/'},
+                                { text: 'Processing', link: '/src/making/processing/'}
                             ]}
                         ]
                     },
@@ -92,7 +94,9 @@ module.exports={
                     {
                         text: 'Engineering',
                         items: [
-                            {text: 'basic', link: '/src/engineering/basic/'}
+                            {text: 'Sound', items:[
+                                {text: 'learning Log: Basic of Sound', link: '/src/engineering/sound/basic/'},
+                            ]}
                         ]
                     }
                 ],
@@ -114,6 +118,26 @@ module.exports={
                 '',
                 'guideTransl.md'
             ],
+
+            '/src/engineering/sound/basic/':[
+                '',
+            ],
+
+            '/src/languages/c/':[
+                '',
+            ],
+
+            '/src/languages/python/':[
+                '',
+            ],
+
+            '/src/languages/html/':[
+                '',
+            ],
+
+            '/src/languages/java_script/':[
+                '',
+            ],
         }
-    }
+    },
 }
