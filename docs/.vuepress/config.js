@@ -103,28 +103,17 @@ module.exports={
 
         displayAllHeaders: false,
 
-        sidebar:[
-            {
-                title: '가이드',
-                path : '/guide/',
-                collapsable : false,
-                sidebarDepth : 3,
-                children: [
-                    '/guide/',
-                    '/guide/direction.md',
-                    '/guide/updateLog.md'
-                ]
-            },
-            {
-                title: '뷰프레스:소개',
-                path: '/src/vuepress/',
-                collapsable : false,
-                sidebarDepth : 3,
-                children: [
-                    '/src/vuepress/',
-                    '/src/vuepress/guidetransl.md'
-                ]
-            }
-        ]
+        sidebar:{
+            '/guide/':[
+                '',
+                'direction.md',
+                'updateLog.md'
+            ],
+            
+            '/src/vuepress/':[
+                '',
+                'guideTransl.md'
+            ],
+        }
     }
 }
