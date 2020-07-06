@@ -146,6 +146,13 @@ module.exports={
             '/src/making/processing/':[
                 '',
             ],
+
+            '/src/projects/debit-card/':[
+                '',
+                'v2_0_0.md',
+                'v1_1_0.md',
+                'v1_0_0.md'
+            ],
         }
     },
 }
