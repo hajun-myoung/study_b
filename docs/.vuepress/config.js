@@ -44,7 +44,7 @@ module.exports={
                     {
                         text: '프로젝트',
                         items: [
-                            {text: '짐벌만들기', link: '/src/projects/gimabl/'},
+                            {text: '짐벌만들기', link: '/src/projects/gimbal/'},
                             {text: '체크카드 시스템 만들기', link: '/src/projects/debit-card/'}
                         ]
                     },
@@ -151,6 +151,11 @@ module.exports={
                 '',
                 'v2_0_0.md',
                 'v1_1_0.md',
+                'v1_0_0.md'
+            ],
+
+            '/src/projects/gimbal/':[
+                '',
                 'v1_0_0.md'
             ],
         }
