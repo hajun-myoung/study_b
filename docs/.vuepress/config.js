@@ -138,6 +138,14 @@ module.exports={
             '/src/languages/java_script/':[
                 '',
             ],
+            
+            '/src/making/arduino/':[
+                '',
+            ],
+            
+            '/src/making/processing/':[
+                '',
+            ],
         }
     },
 }
