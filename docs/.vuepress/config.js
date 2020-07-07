@@ -116,6 +116,7 @@ module.exports={
             
             '/src/vuepress/':[
                 '',
+                'ready_for_blog.md',
                 'guideTransl.md'
             ],
 
