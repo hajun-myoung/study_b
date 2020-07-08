@@ -117,7 +117,8 @@ module.exports={
             '/src/vuepress/':[
                 '',
                 'ready_for_blog.md',
-                'guideTransl.md'
+                'guideTransl.md',
+                'rfv_errors.md',
             ],
 
             '/src/engineering/sound/basic/':[
