@@ -123,6 +123,7 @@ module.exports={
 
             '/src/engineering/sound/basic/':[
                 '',
+                'lecture01.md'
             ],
 
             '/src/languages/c/':[
