@@ -20,15 +20,15 @@ footer: MIT Licensed | Using Vuepress framework | Copyright © 2020 HajunMyoung
 
 :::details 마지막 업데이트 시기와 내용을 확인하려면 여길 눌러주세요.
 - Q. 언제 마지막으로 업데이트 됐나요?
-  - A. '20년 7월 8일에 했어요.  
+  - A. '20년 8월 25일에 했어요.  
 - Q. 무엇이 업데이트 되었나요?
-  - A. 뷰프레스 설치를 위한 사전 준비 문서를 완성했고, 오류 케이스 하나를 정리해놓았어요.
+  - A. 아두이노/프로세싱 문서 문단을 다듬었어요.
 :::
 
 :::details 앞으로 업데이트 계획을 보려면 여길 눌러주세요.
-:computer:가장 가까운 계획은 각 페이지에 소개글을 만드는 것이고,:computer:  
-:muscle:이번달 가장 핵심 계획은 음향 공부에요.:muscle:  
-:satisfied:올해 가장 큰 계획이요? 당연히 모든 항목의 완성이죠:satisfied:
+:computer:가장 가까운 계획은 ...바빠서 블로그를 못 돌보고 있어요. 계획을 먼저 세워야해요.:computer:  
+:muscle:이번달 가장 핵심 계획 역시, 잠깐 쉬는 기간이에요.:muscle:  
+:satisfied:올해 가장 큰 계획이요? 가능하다면 모든 항목의 완성이죠:satisfied:
 :::
 
 :::warning 깃허브 및 레포지토리는 여기로!
