@@ -107,6 +107,12 @@ module.exports={
             [
                 '@vuepress/back-to-top'
             ],
+            [
+                '@vuepress/google-analytics',
+                {
+                    'ga': 'UA-175653340-1'
+                }
+            ]
         ],
 
         displayAllHeaders: false,
