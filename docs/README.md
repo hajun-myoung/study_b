@@ -14,7 +14,7 @@ features:
 footer: MIT Licensed | Using Vuepress framework | Copyright © 2020 HajunMyoung
 ---  
 :::danger
-dev-ing : google Analytics test #200827005
+dev-ing : google SearchConsole test #200827001
 :::
 
 :::tip
