@@ -13,6 +13,16 @@ module.exports={
         }
     },
 
+    plugins: [
+        '@vuepress/back-to-top',
+        [
+            '@vuepress/google-analytics',
+            {
+                'ga': 'UA-175653340-1'
+            }
+        ],
+    ],
+
     themeConfig:{
         locales:{
             '/':{
@@ -102,16 +112,6 @@ module.exports={
                 ],
             }
         },
-
-        plugins: [
-            '@vuepress/back-to-top',
-            [
-                '@vuepress/google-analytics',
-                {
-                    ga: 'UA-175653340-1'
-                }
-            ],
-        ],
 
         displayAllHeaders: false,
 
