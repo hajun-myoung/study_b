@@ -13,6 +13,9 @@ features:
   details: 믹싱, EQ 밸런싱, 음향 등을 다룹니다. 프로그래밍과의 거리는 좀 있지만, 관심이 있어요.
 footer: MIT Licensed | Using Vuepress framework | Copyright © 2020 HajunMyoung
 ---  
+:::warning
+dev-ing : google Analytics test #200826001
+:::
 
 :::tip
 무언가 알려주고 싶은 게 있거나, 할 말이 있나요? audgkwns44@gmail.com 으로 부탁드려요!
