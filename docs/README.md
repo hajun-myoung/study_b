@@ -13,8 +13,8 @@ features:
   details: 믹싱, EQ 밸런싱, 음향 등을 다룹니다. 프로그래밍과의 거리는 좀 있지만, 관심이 있어요.
 footer: MIT Licensed | Using Vuepress framework | Copyright © 2020 HajunMyoung
 ---  
-:::warning
-dev-ing : google Analytics test #200826002
+:::danger
+dev-ing : google Analytics test #2008260023
 :::
 
 :::tip
