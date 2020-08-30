@@ -14,9 +14,7 @@ features:
 footer: MIT Licensed | Using Vuepress framework | Copyright © 2020 HajunMyoung
 ---  
 :::danger
-dev-pause : google SearchConsole test #200827002  
-dev.html 수정 및 구글 서치 콘솔을 위한 스크립트 삽입 성공  
-ssr.html 에서 같은 기능을 수행하는 방법을 알 수 없음. dev.html이 build에는 영향을 안 줌
+dev-ing : google SearchConsole test #200831003
 :::
 
 :::tip
