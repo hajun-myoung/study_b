@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html lang="{{ lang }}">
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>{{ title }}</title>
+    <meta name="generator" content="VuePress {{ version }}">
+    {{{ userHeadTags }}}
+    {{{ pageMeta }}}
+    {{{ renderResourceHints() }}}
+    {{{ renderStyles() }}}
+    
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175653340-1"></script>
     <script>
@@ -14,5 +22,6 @@
   </head>
   <body>
     <!--vue-ssr-outlet-->
+    {{{ renderScripts() }}}
   </body>
 </html>
