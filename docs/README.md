@@ -22,7 +22,7 @@ footer: MIT Licensed | Using Vuepress framework | Copyright © 2020 HajunMyoung
 - Q. 언제 마지막으로 업데이트 됐나요?
   - A. '20년 8월 31일에 했어요.  
 - Q. 무엇이 업데이트 되었나요?
-  - A. 구글 서치 콘솔 및 구글 애널리틱스와의 연결을 끝냈어요.(성공했어요.)
+  - A. 프로세싱/아두이노 항목의 소개글을 수정했어요.
 :::
 
 :::details 앞으로 업데이트 계획을 보려면 여길 눌러주세요.
