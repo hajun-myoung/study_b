@@ -31,14 +31,13 @@
     - 다 되었다면 '다음'단계로 넘어갑시다.
 - 측정하려는 대상은, 필요에 맞게 선택해주세요.
     - 제 경우, 블로그를 등록하려 한 것이기 때문에 '웹'으로 선택했답니다.
-- 웹사이트 이름, 주소, 카테고리 및 보고 시간대까지 설정해주면  
-**계정 생성이 완료**되었어요!
+- 웹사이트 이름, 주소, 카테고리 및 보고 시간대까지 설정해주면
+
+...**계정 생성이 완료**되었어요!
 
 ### 2.해당 사이트 소유권의 증명
 ***
-사이트 소유권의 증명은, 뷰프레스에서 제공하는 공식 플러그인, ['구글 애널리틱스 플러그인'](https://vuepress.vuejs.org/plugin/official/plugin-google-analytics.html)을 사용할거에요.
-
-사용방법은, 여타 플러그인들과 다를 것이 없고, 공식 설명만 봐도 충분히 이해할 수 있을거에요.
+사이트 소유권의 증명은 뷰프레스에서 제공하는 공식 플러그인인, ['구글 애널리틱스 플러그인'](https://vuepress.vuejs.org/plugin/official/plugin-google-analytics.html)을 사용할 거에요. 사용방법은 여타 플러그인들과 다를 것이 없어서, 공식 설명만으로도 충분히 이해할 수 있어요.
 
 1. `yarn add -D @vuepress/plugin-google-analytics` 을 통해 플러그인을 설치하고
     - `npm install -D @vuepress/plugin-google-analytics`로도 가능해요.
