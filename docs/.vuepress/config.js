@@ -34,8 +34,9 @@ module.exports={
                     {
                         text: '공부한 것들',
                         items: [
-                            { text: '뷰프레스(VuePress)', items:[
-                                { text: '뷰프레스(VuePress)', link: '/src/vuepress/'}
+                            { text: '블로그 셋팅', items:[
+                                { text: '뷰프레스(VuePress)', link: '/src/vuepress/'},
+                                { text: '구글(Google)', link: 'src/google/'}
                             ]},
                             { text: '프로그래밍 언어', items :
                                 [
@@ -78,8 +79,9 @@ module.exports={
                     {
                         text: 'Learnt',
                         items: [
-                            { text: 'VuePress', items:[
-                                { text: 'VuePress', link: '/src/vuepress/'}
+                            { text: 'Setting blog', items:[
+                                { text: 'VuePress', link: '/src/vuepress/'},
+                                { text: 'Google', link: '/src/google'}
                             ]},
                             { text: 'Programing Languages', items :
                                 [
@@ -127,6 +129,12 @@ module.exports={
                 'ready_for_blog.md',
                 'guideTransl.md',
                 'rfv_errors.md',
+            ],
+
+            '/src/google/':[
+                '',
+                'analytics.md',
+                'search_console.md'
             ],
 
             '/src/engineering/sound/basic/':[
