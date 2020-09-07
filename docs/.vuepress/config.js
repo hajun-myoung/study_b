@@ -81,7 +81,7 @@ module.exports={
                         items: [
                             { text: 'Setting blog', items:[
                                 { text: 'VuePress', link: '/src/vuepress/'},
-                                { text: 'Google', link: '/src/google'}
+                                { text: 'Google', link: '/src/google/'}
                             ]},
                             { text: 'Programing Languages', items :
                                 [
