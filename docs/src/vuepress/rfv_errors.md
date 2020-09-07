@@ -29,7 +29,7 @@ C:\Users\Administrator\AppData\Roaming\npm\yarn.ps1 파일을 로드할 수 없�
 ***
 1. 먼저, 파워쉘을 **관리자 권한** 으로 실행해 줍니다.
 1. 다음의 명령어를 입력해, 파워쉘 정책이 yarn을 제한시키는지 아닌지 알아봅니다.
-```shell
+```sh
 $ ExecutionPolicy
 ```
 (대소문자는 중요하지 않아요)  
@@ -37,14 +37,14 @@ $ ExecutionPolicy
 ![restricted](./ps_001.png)
 
 3. 이제 보안 정책을 풀어줍니다.
-```shell
+```sh
 $ Set-ExecutionPolicy unRestricted
 ```
 중간에 정말 변경할 건지 묻는 질문에 'y'로 동의해주시는 거 잊지 말구요.  
 ![settingPs](./ps_002.png)
 
 4. 이제, 정말 변경되었는지 확인해봅니다.
-```shell
+```sh
 $ ExecutionPolicy
 ```
 ![compleps](./ps_003.png)  
@@ -107,14 +107,14 @@ module.exports={
 
 :::details 제 경우, 플러그인 '설치'는 성공적이었어요.
 back-to-top 플러그인의 설치는 공식 가이드에 따라
-```shell
+```sh
 yarn add -D @vuepress/plugin-back-to-top
 # OR npm install -D @vuepress/plugin-back-to-top
 ```
 를 통해서,  
   
 google-Analytics 플러그인은
-```shell
+```sh
 yarn add -D @vuepress/plugin-google-analytics
 # OR npm install -D @vuepress/plugin-google-analytics
 ```

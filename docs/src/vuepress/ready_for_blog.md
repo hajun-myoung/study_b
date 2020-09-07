@@ -111,7 +111,7 @@ C/C++ Extension을 깔아주면, C/C++의 구문 강조, 코드 편집 등이 �
   
 자, cd 명령어를 통해 깃허브 레포지토리 복사하기 적당한 디렉토리로 이동하세요.  
 저는 깃 특성 상 가깝고 한글 디렉토리 이름이 없는, documents(문서)폴더 안에 깃허브용 폴더를 하나 만드시는 걸 추천드려요.
-```shell
+```sh
 $ cd c:/
 $ cd users
 $ cd <username>
@@ -135,12 +135,12 @@ $ cd <directoryName>
 이제 본격적인 클론이에요, 위에 명령어들을 치고 쉘 창을 끄지 않은 상태에서 바로 하셔야돼요.
 :::details 꺼버렸는데 어떡하죠?
 괜찮아요, 해당 경로로 이동만 하면 돼요.  
-```shell
-cd c:/users/<username>/documents/<directoryName>
+```sh
+$ cd c:/users/<username>/documents/<directoryName>
 ```
 하시고, 따라가세요.
 :::
-```shell
+```sh
 $ git clone <복사한 레포지토리 주소 : 붙여넣기는 우클릭으로 할 수 있어요.>
 ```
 여기까지 하면, 클론까지 다 하신거에요. 수고하셨어요!
@@ -153,7 +153,7 @@ Node 하나만 설치하세요. Node가 설치해준다고 하는 다른 들러�
 :::
 
 설치하셨나요? 이제 확인해봅시다.
-```shell
+```sh
 $ npm -version
 ```
 했을 때, 버젼(x.xx.x)이 출력되면 정상이에요.  
@@ -163,12 +163,12 @@ $ npm -version
 :::
   
 yarn을 깔아야겠죠?
-```shell
+```sh
 $ npm install yarn
 ```
   
 마찬가지로, yarn이 잘 깔렸는지 확인합시다.
-```shell
+```sh
 $ yarn -version
 ```
 이번에도 버젼(x.xx.x)이 출력되면 잘 된거에요.
@@ -180,19 +180,19 @@ $ yarn -version
 yarn을 깔았다면, 초기 셋팅을 해 주어야 겠죠?  
 초기 셋팅은 언제나 프로젝트 디렉토리에서 하는 것 잊지 마시구요.
 :::details 디렉토리로 이동하는 거, 다시 알고싶으면 누르세요. :)
-```shell
+```sh
 $ cd c:/users/<username>/documents/<directoryName>
 ```
 쉬운 명령어에요.
 :::
-```shell
+```sh
 $ yarn install
 $ yarn init -y
 ```
 여기까지 하면, 뷰프레스를 '설치'할 준비가 끝난거에요. 축하해요!
 
 바로, 뷰프레스를 여러분 블로그 폴더(레포지토리 클론)에 설치만 해 둡시다.:smiley:  
-```shell
+```sh
 $ yarn add vuepress -D
 ```
 -D 태그는, 현재 폴더에만 의존성으로 설치하는 거에요. (-G, 글로벌과 반대) 우리는 뷰프레스를 이 폴더에서(이 블로그를 위해) 사용할 거니까, 여기에다만 설치하면 되거든요.  
