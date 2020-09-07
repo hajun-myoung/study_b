@@ -1,183 +1,202 @@
-module.exports={
-    base : '/study_b/',
-    locales : {
-        '/':{
-            lang: 'ko-KR',
-            title : "하준's 학습블로그",
-            description : "Hajun's study-blog. WELCOME!"
-        },
-        '/eng/':{
-            lang: 'en-US',
-            title : "Hajun's study-blog",
-            description : "하준's 학습블로그"
-        }
+module.exports = {
+  base: "/study_b/",
+  locales: {
+    "/": {
+      lang: "ko-KR",
+      title: "하준's 학습블로그",
+      description: "Hajun's study-blog. WELCOME!",
     },
+    "/eng/": {
+      lang: "en-US",
+      title: "Hajun's study-blog",
+      description: "하준's 학습블로그",
+    },
+  },
 
-    plugins: [
-        '@vuepress/back-to-top',
-        [
-            '@vuepress/google-analytics',
-            {
-                'ga': 'UA-175653340-1'
-            }
-        ],
+  plugins: [
+    "@vuepress/back-to-top",
+
+    [
+      "@vuepress/google-analytics",
+      {
+        ga: "UA-175653340-1",
+      },
     ],
 
-    themeConfig:{
-        locales:{
-            '/':{
-                selectText: '언어(Languages)',
-                label: '한국어',
-                
-                nav :[
-                    { text: '홈', link: '/'},
-                    {
-                        text: '공부한 것들',
-                        items: [
-                            { text: '블로그 셋팅', items:[
-                                { text: '뷰프레스(VuePress)', link: '/src/vuepress/'},
-                                { text: '구글(Google)', link: 'src/google/'}
-                            ]},
-                            { text: '프로그래밍 언어', items :
-                                [
-                                    { text: 'C', link: '/src/languages/c/'},
-                                    { text: 'Python', link: '/src/languages/python/'},
-                                    { text: 'JS', link: '/src/languages/java_script/'},
-                                    { text: 'HTML&CSS', link: '/src/languages/html_css/'},
-                                ]
-                            },
-                            { text: '메이킹', items:[
-                                { text: '아두이노', link: '/src/making/arduino/'},
-                                { text: '프로세싱', link: '/src/making/processing/'}
-                            ]}
-                        ]
-                    },
-                    {
-                        text: '프로젝트',
-                        items: [
-                            {text: '짐벌만들기', link: '/src/projects/gimbal/'},
-                            {text: '체크카드 시스템 만들기', link: '/src/projects/debit-card/'}
-                        ]
-                    },
-                    {
-                        text: '엔지니어링',
-                        items: [
-                            {text: '음향', items:[
-                                {text: '학습기록: 음향기본', link: '/src/engineering/sound/basic/'},
-                            ]}
-                        ]
-                    }
+    [
+      "vuepress-plugin-container",
+      {
+        type: "right",
+        defaultTitle: "",
+      },
+    ],
+
+    [
+      "vuepress-plugin-container",
+      {
+        type: "theorem",
+        before: (info) => `<div class="theorem"><p class="title">${info}</p>`,
+        after: "</div>",
+      },
+    ],
+  ],
+
+  themeConfig: {
+    locales: {
+      "/": {
+        selectText: "언어(Languages)",
+        label: "한국어",
+
+        nav: [
+          { text: "홈", link: "/" },
+          {
+            text: "공부한 것들",
+            items: [
+              {
+                text: "블로그 셋팅",
+                items: [
+                  { text: "뷰프레스(VuePress)", link: "/src/vuepress/" },
+                  { text: "구글(Google)", link: "src/google/" },
                 ],
-            },
-
-            '/eng/':{
-                selectText: 'Languages(언어)',
-                label: 'English',
-                
-                nav :[
-                    { text: 'Home', link: '/'},
-                    {
-                        text: 'Learnt',
-                        items: [
-                            { text: 'Setting blog', items:[
-                                { text: 'VuePress', link: '/src/vuepress/'},
-                                { text: 'Google', link: '/src/google/'}
-                            ]},
-                            { text: 'Programing Languages', items :
-                                [
-                                    { text: 'HTML&CSS', link: '/src/languages/html_css/'},
-                                    { text: 'Python', link: '/src/languages/python/'},
-                                    { text: 'JS', link: '/src/languages/java_script/'}
-                                ]
-                            },
-                            { text: 'Making', items:[
-                                { text: 'Arduino', link: '/src/making/arduino/'},
-                                { text: 'Processing', link: '/src/making/processing/'}
-                            ]}
-                        ]
-                    },
-                    {
-                        text: 'Projects',
-                        items: [
-                            {text: 'making Gimbal', link: '/src/projects/gimabl/'},
-                            {text: 'making DebitCard System', link: '/src/projects/debit-card/'}
-                        ]
-                    },
-                    {
-                        text: 'Engineering',
-                        items: [
-                            {text: 'Sound', items:[
-                                {text: 'learning Log: Basic of Sound', link: '/src/engineering/sound/basic/'},
-                            ]}
-                        ]
-                    }
+              },
+              {
+                text: "프로그래밍 언어",
+                items: [
+                  { text: "C", link: "/src/languages/c/" },
+                  { text: "Python", link: "/src/languages/python/" },
+                  { text: "JS", link: "/src/languages/java_script/" },
+                  { text: "HTML&CSS", link: "/src/languages/html_css/" },
                 ],
-            }
-        },
+              },
+              {
+                text: "메이킹",
+                items: [
+                  { text: "아두이노", link: "/src/making/arduino/" },
+                  { text: "프로세싱", link: "/src/making/processing/" },
+                ],
+              },
+            ],
+          },
+          {
+            text: "프로젝트",
+            items: [
+              { text: "짐벌만들기", link: "/src/projects/gimbal/" },
+              {
+                text: "체크카드 시스템 만들기",
+                link: "/src/projects/debit-card/",
+              },
+            ],
+          },
+          {
+            text: "엔지니어링",
+            items: [
+              {
+                text: "음향",
+                items: [
+                  {
+                    text: "학습기록: 음향기본",
+                    link: "/src/engineering/sound/basic/",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
 
-        displayAllHeaders: false,
+      "/eng/": {
+        selectText: "Languages(언어)",
+        label: "English",
 
-        sidebar:{
-            '/guide/':[
-                '',
-                'direction.md',
-                'updateLog.md'
+        nav: [
+          { text: "Home", link: "/" },
+          {
+            text: "Learnt",
+            items: [
+              {
+                text: "Setting blog",
+                items: [
+                  { text: "VuePress", link: "/src/vuepress/" },
+                  { text: "Google", link: "/src/google/" },
+                ],
+              },
+              {
+                text: "Programing Languages",
+                items: [
+                  { text: "HTML&CSS", link: "/src/languages/html_css/" },
+                  { text: "Python", link: "/src/languages/python/" },
+                  { text: "JS", link: "/src/languages/java_script/" },
+                ],
+              },
+              {
+                text: "Making",
+                items: [
+                  { text: "Arduino", link: "/src/making/arduino/" },
+                  { text: "Processing", link: "/src/making/processing/" },
+                ],
+              },
             ],
-            
-            '/src/vuepress/':[
-                '',
-                'ready_for_blog.md',
-                'guideTransl.md',
-                'rfv_errors.md',
-                'plugins.md',
+          },
+          {
+            text: "Projects",
+            items: [
+              { text: "making Gimbal", link: "/src/projects/gimabl/" },
+              {
+                text: "making DebitCard System",
+                link: "/src/projects/debit-card/",
+              },
             ],
-
-            '/src/google/':[
-                '',
-                'analytics.md',
-                'search_console.md'
+          },
+          {
+            text: "Engineering",
+            items: [
+              {
+                text: "Sound",
+                items: [
+                  {
+                    text: "learning Log: Basic of Sound",
+                    link: "/src/engineering/sound/basic/",
+                  },
+                ],
+              },
             ],
-
-            '/src/engineering/sound/basic/':[
-                '',
-                'lecture01.md'
-            ],
-
-            '/src/languages/c/':[
-                '',
-            ],
-
-            '/src/languages/python/':[
-                '',
-            ],
-
-            '/src/languages/html_css/':[
-                '',
-            ],
-
-            '/src/languages/java_script/':[
-                '',
-            ],
-            
-            '/src/making/arduino/':[
-                '',
-            ],
-            
-            '/src/making/processing/':[
-                '',
-            ],
-
-            '/src/projects/debit-card/':[
-                '',
-                'v2_0_0.md',
-                'v1_1_0.md',
-                'v1_0_0.md'
-            ],
-
-            '/src/projects/gimbal/':[
-                '',
-                'v1_0_0.md'
-            ],
-        }
+          },
+        ],
+      },
     },
-}
+
+    displayAllHeaders: false,
+
+    sidebar: {
+      "/guide/": ["", "direction.md", "updateLog.md"],
+
+      "/src/vuepress/": [
+        "",
+        "ready_for_blog.md",
+        "guideTransl.md",
+        "rfv_errors.md",
+        "plugins.md",
+      ],
+
+      "/src/google/": ["", "analytics.md", "search_console.md"],
+
+      "/src/engineering/sound/basic/": ["", "lecture01.md"],
+
+      "/src/languages/c/": [""],
+
+      "/src/languages/python/": [""],
+
+      "/src/languages/html_css/": [""],
+
+      "/src/languages/java_script/": [""],
+
+      "/src/making/arduino/": [""],
+
+      "/src/making/processing/": [""],
+
+      "/src/projects/debit-card/": ["", "v2_0_0.md", "v1_1_0.md", "v1_0_0.md"],
+
+      "/src/projects/gimbal/": ["", "v1_0_0.md"],
+    },
+  },
+};
