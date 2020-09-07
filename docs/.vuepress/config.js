@@ -150,7 +150,7 @@ module.exports={
                 '',
             ],
 
-            '/src/languages/html/':[
+            '/src/languages/html_css/':[
                 '',
             ],
 
