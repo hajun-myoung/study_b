@@ -43,7 +43,7 @@ module.exports={
                                     { text: 'C', link: '/src/languages/c/'},
                                     { text: 'Python', link: '/src/languages/python/'},
                                     { text: 'JS', link: '/src/languages/java_script/'},
-                                    { text: 'HTML +α', link: '/src/languages/html/'},
+                                    { text: 'HTML&CSS', link: '/src/languages/html_css/'},
                                 ]
                             },
                             { text: '메이킹', items:[
@@ -85,7 +85,7 @@ module.exports={
                             ]},
                             { text: 'Programing Languages', items :
                                 [
-                                    { text: 'HTML +α', link: '/src/languages/html/'},
+                                    { text: 'HTML&CSS', link: '/src/languages/html_css/'},
                                     { text: 'Python', link: '/src/languages/python/'},
                                     { text: 'JS', link: '/src/languages/java_script/'}
                                 ]
