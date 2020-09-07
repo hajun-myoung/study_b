@@ -20,9 +20,9 @@ footer: MIT Licensed | Using Vuepress framework | Copyright © 2020 HajunMyoung
 
 :::details 마지막 업데이트 시기와 내용을 확인하려면 여길 눌러주세요.
 - Q. 언제 마지막으로 업데이트 됐나요?
-  - A. '20년 9월 7일에 했어요.  
+  - A. '20년 9월 7일에 했어요. #005 
 - Q. 무엇이 업데이트 되었나요?
-  - A. 구글 애널리틱스 적용 방법을 정리했어요.
+  - A. HTML +a 문서를 HTML&CSS로 바꾸고, 뷰프레스 카테고리에 적용한 플러그인을 설명할 문서를 만들었어요.
 :::
 
 :::details 앞으로 업데이트 계획을 보려면 여길 눌러주세요.
