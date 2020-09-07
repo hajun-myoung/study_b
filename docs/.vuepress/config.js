@@ -129,6 +129,7 @@ module.exports={
                 'ready_for_blog.md',
                 'guideTransl.md',
                 'rfv_errors.md',
+                'plugins.md',
             ],
 
             '/src/google/':[
