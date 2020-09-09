@@ -42,6 +42,7 @@ module.exports = {
   ],
 
   themeConfig: {
+    smoothScroll: true,
     locales: {
       "/": {
         selectText: "언어(Languages)",
@@ -56,7 +57,7 @@ module.exports = {
                 text: "블로그 셋팅",
                 items: [
                   { text: "뷰프레스(VuePress)", link: "/src/vuepress/" },
-                  { text: "구글(Google)", link: "src/google/" },
+                  { text: "구글(Google)", link: "/src/google/" },
                 ],
               },
               {
