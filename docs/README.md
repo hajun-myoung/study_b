@@ -21,10 +21,11 @@ footer: MIT Licensed | Using Vuepress framework | Copyright © 2020 HajunMyoung
 :::details 마지막 업데이트 시기와 내용을 확인하려면 여길 눌러주세요.
 
 - Q. 언제 마지막으로 업데이트 됐나요?
-  - A. '20년 9월 7일에 했어요. #005
+  - A. '20년 9월 10일에 했어요. #001
 - Q. 무엇이 업데이트 되었나요?
-  - A. HTML +a 문서를 HTML&CSS로 바꾸고, 뷰프레스 카테고리에 적용한 플러그인을 설명할 문서를 만들었어요.
-    :::
+  - A. 구글 카테고리 연결 에러를 수정했고, smoothScroll 적용 및 해당 내용 정리를 추가했어요.
+
+:::
 
 :::details 앞으로 업데이트 계획을 보려면 여길 눌러주세요.
 :computer:가장 가까운 계획은 구글 검색에 제 블로그를 노출시키는 거에요.:computer:  
