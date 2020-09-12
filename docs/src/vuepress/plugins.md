@@ -132,8 +132,7 @@ module.exports = {
 위 코드를 보면 알겠지만, 컨테이너 플러그인은 "추가하고 싶은 컨테이너 종류"마다 하나씩 플러그인 요소로 선언을 해 줘야 합니다. 기존에 있었던 한번 적용하고 끝나는 플러그인들과는 조금 다르죠.  
 **이 경우, 상술한 theorem 컨테이너와 right 컨테이너를 새로 만드는 과정이에요.**
 
-두 번째 단계로, **.vuepress/**에 새로운 폴더 `styles`를 만들고, 그 안에 파일 `index.styl`을 만들어주세요.  
-즉, 이 밑에 따라오는 코드는 `.vuepress/styles/index.styl`에서 이루어지는 겁니다.
+두 번째 단계로, **.vuepress/** 에 새로운 폴더 `styles`를 만들고, 그 안에 파일 `index.styl`을 만들어주세요. 즉, 이 밑에 따라오는 코드는 `.vuepress/styles/index.styl`에서 이루어지는 겁니다.
 
 ```stylus
 .theorem
