@@ -46,7 +46,7 @@ module.exports = {
         hostname: 'https://hajunmyoung.github.io/study_b/',
         outFile: 'sitemap.xml',
         exclude: [
-          '/404.html, '
+          '/404.html',
         ],
       }
     ]
