@@ -39,6 +39,17 @@ module.exports = {
         after: "</div>",
       },
     ],
+
+    [
+      "vuepress-plugin-sitemap",/* trying for working or not. */
+      {
+        hostname: 'https://hajunmyoung.github.io/study_b/',
+        outFile: 'sitemap.xml',
+        exclude: [
+          '/404.html, '
+        ],
+      }
+    ]
   ],
 
   themeConfig: {
