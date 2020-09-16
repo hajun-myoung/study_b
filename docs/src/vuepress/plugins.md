@@ -113,14 +113,14 @@ module.exports = {
     [
       "vuepress-plugin-container",
       {
-        type: "right",
-        defaultTitle: "",
+        자료형: "right",
+        기본값Title: "",
       },
     ],
     [
       "vuepress-plugin-container",
       {
-        type: "theorem",
+        자료형: "theorem",
         before: (info) => `<div class="theorem"><p class="title">${info}</p>`,
         after: "</div>",
       },
@@ -183,5 +183,66 @@ module.exports = {
 
 네, 끝이에요!
 
-> 근데 마이크로소프트 엣지에서는 동작하지 않네요...  
-> 엣지...크롬하고 같은 V8엔진 쓴다면서 안되는 게 너무 많아요 :imp:
+## Sitemap 생성기
+sitemap.xml을 생성하고, 블로그에 포함시키는 것을 자동화해주는 플러그인이에요.
+
+### 설치
+
+[가이드는 여기에요](https://www.npmjs.com/package/vuepress-plugin-sitemap).
+```sh
+$ yarn add -D vuepress-plugin-sitemap
+# npm install -D vuepress-plugin-sitemap
+```
+
+### 적용
+```js
+module.exports = {
+  plugins : [
+    [
+      "vuepress-plugin-sitemap",
+      {
+        hostname: 'https://hajunmyoung.github.io/study_b/',
+        outFile: 'sitemap.xml',
+        exclude: [
+          '/404.html',
+        ],
+      }
+    ]
+  ]
+}
+```
+:::details 선택할 수 있는 옵션들은 다음과 같아요.
+- hostname:  
+  - 자료형: string  
+  - 필요여부: 필수로 선언해야 해요.  
+  - 기본값: null  
+  - 설명: 웹사이트의 루트 URL이 들어가요.  
+  - 예시: https://pake.web.id  
+ 
+- outFile:  
+  - 자료형: string  
+  - 필요여부: 필수가 아니에요.  
+  - 기본값: sitemap.xml  
+  - 설명: sitemap 파일의 이름을 넣으면 돼요.(확장자 포함)  
+  - 예시: sitemap.txt  
+ 
+- urls:  
+  - 자료형: array  
+  - 필요여부: 필수가 아니에요.  
+  - 기본값: [],  
+  - 설명: 특정 url에 추가하고 싶은 것들을 추가할 수 있어요.  
+  - 예시: [{ url: '/place', changefreq: 'montly'}]  
+ 
+- exclude:  
+  - 자료형: array  
+  - 필요여부: 필수가 아니에요.(권장)  
+  - 기본값: [],  
+  - 설명: sitemap에 포함하고 싶지 않은 url을 설정해요.  
+  - 예시: ['/404.html']  
+ 
+- dateFormatter:  
+  - 자료형: function  
+  - 필요여부: 필수가 아니에요.  
+  - 설명: 데이터 형식을 바꿔요.  
+  - 기본값: time => new Date(time).toISOString()  
+:::
