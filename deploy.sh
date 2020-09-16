@@ -6,6 +6,14 @@ set -e
 # build
 npm run build
 
+# CUSTOM SETTINGS : WROTE BY HAJUN
+
+# copy and paste passive generated sitemap.xml from /study_b/ to /dist/
+# -maxdepth 1 : for exclude childe folders
+# find . -maxdepth 1 -name "sitemap.xml" -exec cp {} ./target/forder/ \;
+
+# CUSTOM SETTINGS END
+
 # navigate into the build output directory
 cd docs/.vuepress/dist
 
