@@ -198,7 +198,7 @@ module.exports = {
 
       "/src/languages/python/": [""],
 
-      "/src/languages/html_css/": [""],
+      "/src/languages/html_css/": ["", "01_basicStructure.md"],
 
       "/src/languages/java_script/": [""],
 
