@@ -13,6 +13,8 @@ npm run build
 cd docs/src/languages/html_css
 find . -maxdepth 1 -name "01_example.html" -exec cp {} ../../../.vuepress/dist/src/languages/html_css/ \;
 
+# go back to origin directory
+cd ../../../../../../
 # CUSTOM SETTINGS END
 
 # navigate into the build output directory
