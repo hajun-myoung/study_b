@@ -41,6 +41,14 @@ module.exports = {
     ],
 
     [
+      "vuepress-plugin-container",
+      {
+        type: "quiz",
+        defaultTitle: "",
+      },
+    ],
+
+    [
       "vuepress-plugin-sitemap",/* trying for working or not. */
       {
         hostname: 'https://hajunmyoung.github.io/study_b/',
