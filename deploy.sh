@@ -11,7 +11,10 @@ npm run build
 # copy and paste passive generated sitemap.xml from /study_b/ to /dist/
 # -maxdepth 1 : for exclude childe folders
 cd docs/src/languages/html_css
-find . -maxdepth 1 -name "examples" -exec cp {} ../../../.vuepress/dist/src/languages/html_css/ \;
+# find . -maxdepth 1 -name "examples" -exec cp {} ../../../.vuepress/dist/src/languages/html_css/ \;
+
+# copy&past specific 'folder'
+cp -r examples ../../../.vuepress/dist/src/languages/html_css/
 
 # go back to origin directory
 cd ../../../../
