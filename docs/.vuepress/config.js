@@ -206,7 +206,7 @@ module.exports = {
 
       "/src/languages/python/": [""],
 
-      "/src/languages/html_css/": ["", "01_basicStructure.md", "02_basicTags.md"],
+      "/src/languages/html_css/": ["", "01_basicStructure.md", "02_basicTags.md", "namedColors.md", 'htmlFonts.md'],
 
       "/src/languages/java_script/": [""],
 
