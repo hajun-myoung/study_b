@@ -38,19 +38,18 @@ from. [w3school's html color names](https://www.w3schools.com/colors/colors_name
 ## D 시리즈 네임드 컬러들
 |색 이름|RGB 코드|색 예시||색 이름|RGB 코드|색 예시|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|DarkBlue|#00008B|<table style="border: black 1px solid; width:50px; height: 20px;background-color: DarkBlue"></table>||DarkCyan|#008B8B|<table style="border: black 1px solid; width:50px; height: 20px;background-color: DarkSyan"></table>|
-|DarkGoldenRod|#B8860B|<table style="border: black 1px solid; width:50px; height: 20px;background-color: DarkGoldenRod"></table>|||||
+|DarkBlue|#00008B|<table style="border: black 1px solid; width:50px; height: 20px;background-color: DarkBlue"></table>||DarkCyan|#008B8B|<table style="border: black 1px solid; width:50px; height: 20px;background-color: DarkCyan"></table>|
+|DarkGoldenRod|#B8860B|<table style="border: black 1px solid; width:50px; height: 20px;background-color: DarkGoldenRod"></table>||DodgerBlue|#1E90FF|<table style="border: black 1px solid; width:50px; height: 20px;background-color: DodgerBlue"></table>|
 |DarkGray|#A9A9A9|<table style="border: black 1px solid; width:50px; height: 20px;background-color: DarkGray"></table>||DarkGrey|#A9A9A9|<table style="border: black 1px solid; width:50px; height: 20px;background-color: DarkGrey"></table>|
 |DarkGreen|#006400|<table style="border: black 1px solid; width:50px; height: 20px;background-color: DarkGreen"></table>||DarkKhaki|#BDB76B|<table style="border: black 1px solid; width:50px; height: 20px;background-color: DarkKhaki"></table>|
 |DarkMagenta|#8B008B|<table style="border: black 1px solid; width:50px; height: 20px;background-color: DarkMagenta"></table>||DarkOliveGreen|#556B2F|<table style="border: black 1px solid; width:50px; height: 20px;background-color: DarkOliveGreen"></table>|
 |DarkOrange|#FF8C00|<table style="border: black 1px solid; width:50px; height: 20px;background-color: DarkOrange"></table>||DarkOrchid|#9932CC|<table style="border: black 1px solid; width:50px; height: 20px;background-color: DarkOrchid"></table>|
 |DarkRed|#8B0000|<table style="border: black 1px solid; width:50px; height: 20px;background-color: DarkRed"></table>||DarkSalmon|#E9967A|<table style="border: black 1px solid; width:50px; height: 20px;background-color: DarkSalmon"></table>|
 |DarkSeaGreen|#8FBC8F|<table style="border: black 1px solid; width:50px; height: 20px;background-color: DarkSeaGreen"></table>||DarkSlateBlue|#483D8B|<table style="border: black 1px solid; width:50px; height: 20px;background-color: DarkSlateBlue"></table>|
-|DarkSlateGray|#2F4F4F|<table style="border: black 1px solid; width:50px; height: 20px;background-color: DarkSalteGray"></table>||DarkSlateGrey|#2F4F4F|<table style="border: black 1px solid; width:50px; height: 20px;background-color: DarkSlateGrey"></table>|
+|DarkSlateGray|#2F4F4F|<table style="border: black 1px solid; width:50px; height: 20px;background-color: DarkSlateGray"></table>||DarkSlateGrey|#2F4F4F|<table style="border: black 1px solid; width:50px; height: 20px;background-color: DarkSlateGrey"></table>|
 |DarkTurquoise|#00CED1|<table style="border: black 1px solid; width:50px; height: 20px;background-color: DarkTurquoise"></table>||DarkViolet|#9400D3|<table style="border: black 1px solid; width:50px; height: 20px;background-color: DarkViolet"></table>|
 |DeepPink|#FF1493|<table style="border: black 1px solid; width:50px; height: 20px;background-color: DeepPink"></table>||DeepSkyBlue|#00BFFF|<table style="border: black 1px solid; width:50px; height: 20px;background-color: DeepSkyBlue"></table>|
 |DimGray|#696969|<table style="border: black 1px solid; width:50px; height: 20px;background-color: DimGray"></table>||DimGrey|#696969|<table style="border: black 1px solid; width:50px; height: 20px;background-color: DimGrey"></table>|
-|DodgerBlue|#1E90FF|<table style="border: black 1px solid; width:50px; height: 20px;background-color: DodgerBlue"></table>|||||
 
 ## F 시리즈 네임드 컬러들
 |색 이름|RGB 코드|색 예시||색 이름|RGB 코드|색 예시|
