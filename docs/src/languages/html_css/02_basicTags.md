@@ -128,5 +128,53 @@ style 속성으로 부여할 수 있는 요소들은 몇 가지가 있어요. �
     - html에서 지원하는 기본 글꼴들에는 [몇 가지가 있어요.](./htmlFonts.html)
 
 ## `<a href=>` 하이퍼링크 걸기
+하이퍼링크를 걸 수 있는 아주 쉬운 태그에요.  
+
+[새 창에서 예시 보기](https://hajunmyoung.github.io/study_b/src/languages/html_css/examples/02_005.html)
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>하이퍼링크 예제</title>
+</head>
+
+<body>
+    <a href="https://hajunmyoung.github.io/study_b/">여기를 눌러 접속하세요</a>
+</body>
+
+</html>
+```
+말 그대로, `href=""`에 넘겨준 링크로 연결하는 하이퍼링크를 걸 수 있어요. 노출되는 텍스트는 `<a>` 태그 사이에 입력된 값으로 결정되죠.  
+추가로 다룰만한 속성이 아직은 딱히 없네요. 이 태그는 일단 '하이퍼링크를 걸 수 있는 태그' 정도로만 알면 충분해요.
 
 ## `<img>` 이미지 넣기
+이미지를 문서에 넣게 해 주는 태그에요. 이 `<img>`태그 말고도 같은 기능을 수행할 수 있는 태그들(ex. `<embed>`)이 있지만, 음...이미지를 넣는 게 목적이라면 그냥 `<img>`태그로 해당 작업을 수행하는 게 나을거에요.
+
+[새 창에서 예시 보기](https://hajunmyoung.github.io/study_b/src/languages/html_css/examples/02_006.html)
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>이미지태그 예시</title>
+</head>
+
+<body>
+    기본적으로 이미지가 이렇게 나와요.<br>
+    <img src="img.PNG" alt="altText"><br>
+    이미지의 크기를 조절할 수 있어요.<br>
+    <img src="img.PNG" alt="altText" width="200px" height="200px"><br>
+    이미지 출력에 문제가 있다면 alt 속성에 준 텍스트가 출력돼요.<br>
+    <img src="lmg.PNG" alt="altText"><br>
+</body>
+
+</html>
+```
+`<img>`태그는 필수로 가지는 `src`속성이 있고, 선택사항으로 끼워넣을 수 있는 속성들(`alt`, `width`, `height`)이 있어요. 각각 다음과 같은 기능을 수행하죠.
+
+- `<src>` : 말 그대로 이미지가 어디에 있는지 소스를 알려줘야 해요. 그래야 브라우저가 읽어올 수 있을 테니까요.
+    - 위치는 이미지 링크 주소, 상대 주소(로컬 주소) 등이 될 수 있어요.
+- `alt` : 이미지 출력에 문제가 생겼을 때 대체 텍스트를 입력해 줄 수 있어요.
+- `width` : 이미지의 너비를 임의지정할 수 있어요.
+- `height` : 이미지의 높이를 임의지정할 수 있어요.
