@@ -202,7 +202,7 @@ module.exports = {
 
       "/src/engineering/sound/basic/": ["", "lecture01.md"],
 
-      "/src/languages/c/": [""],
+      "/src/languages/c/": ["", "01_dataType.md"],
 
       "/src/languages/python/": [""],
 
