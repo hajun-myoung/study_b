@@ -19,8 +19,9 @@ From. [w3school's html color names](https://www.w3schools.com/colors/colors_name
 |한글명칭|색 이름|RGB 코드|색 예시|비고|
 |---:|:---:|:---:|:---:|:---|
 |빨강(적색)|Red|#FF0000|<table style="border: black 1px solid; width:50px; height: 20px;background-color: Red"></table>|순수한 빨강|
-|초록(녹색)|Green|#00FF00|<table style="border: black 1px solid; width:50px; height: 20px;background-color: Green"></table>|순수한 초록|
+|초록(녹색)|Green|#008000|<table style="border: black 1px solid; width:50px; height: 20px;background-color: Green"></table>|우리가 생각하는 '초록'|
 |파랑(청색)|Blue|#0000FF|<table style="border: black 1px solid; width:50px; height: 20px;background-color: Blue"></table>|순수한 파랑|
+|연두(라임)|Lime|#00FF00|<table style="border: black 1px solid; width:50px; height: 20px;background-color: Lime"></table>|순수한 초록|
 |노랑(황색)|Yellow|#FFFF00|<table style="border: black 1px solid; width:50px; height: 20px;background-color: Yellow"></table>|적색 빛+녹색 빛|
 |청록색|Cyan 또는 Aqua|#00FFFF|<table style="border: black 1px solid; width:50px; height: 20px;background-color: Cyan"></table>|녹색 빛+청색 빛|
 |자홍색<br>(마젠타)|Magenta 또는 Fuchsia|#FF00FF|<table style="border: black 1px solid; width:50px; height: 20px;background-color: Magenta"></table>|적색 빛+청색 빛,<br>분홍과 비슷할 뿐 다른 색임|
