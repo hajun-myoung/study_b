@@ -22,9 +22,9 @@ footer: MIT Licensed | Using Vuepress framework | Copyright © 2020 HajunMyoung
 :::details 마지막 업데이트 시기와 내용을 확인하려면 여길 눌러주세요.
 
 - Q. 언제 마지막으로 업데이트 됐나요?
-  - A. '20년 9월 21일에 했어요. #001
+  - A. '20년 10월 1일에 했어요. #001
 - Q. 무엇이 업데이트 되었나요?
-  - A. HTML 문서를 작성하고 있어요.
+  - A. HTML-02.기본 태그 문서의 오탈자를 수정했어요.
 
 :::
 
