@@ -93,6 +93,7 @@ module.exports = {
                 items: [
                   { text: "아두이노", link: "/src/making/arduino/" },
                   { text: "프로세싱", link: "/src/making/processing/" },
+                  { text: "플러스알파", link: "/src/making/plus_alpha/" }
                 ],
               },
             ],
@@ -173,6 +174,7 @@ module.exports = {
                 items: [
                   { text: "Arduino", link: "/src/making/arduino/" },
                   { text: "Processing", link: "/src/making/processing/" },
+                  { text: "plusAlpha", link: "/src/making / plus_alpha / " }
                 ],
               },
             ],
@@ -228,6 +230,8 @@ module.exports = {
       "/src/making/arduino/": [""],
 
       "/src/making/processing/": [""],
+
+      "/src/making/plus_alpha/": [""],
 
       "/src/projects/making/debit-card/": ["", "v2_0_0.md", "v1_1_0.md", "v1_0_0.md"],
 
