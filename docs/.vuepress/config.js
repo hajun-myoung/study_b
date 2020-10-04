@@ -100,11 +100,18 @@ module.exports = {
           {
             text: "프로젝트",
             items: [
-              { text: "짐벌만들기", link: "/src/projects/gimbal/" },
+              {
+                text: "짐벌만들기",
+                link: "/src/projects/gimbal/"
+              },
               {
                 text: "체크카드 시스템 만들기",
-                link: "/src/projects/debit-card/",
+                link: "/src/projects/debit-card/"
               },
+              {
+                text: "배터리>유선 전환하기",
+                link: "/src/projects/battery_to_wired/"
+              }
             ],
           },
           {
@@ -165,6 +172,7 @@ module.exports = {
                 text: "making DebitCard System",
                 link: "/src/projects/debit-card/",
               },
+              { text: "Battery to Wired", link: "/src/projects/battery_to_wired/" }
             ],
           },
           {
@@ -190,13 +198,7 @@ module.exports = {
     sidebar: {
       "/guide/": ["", "direction.md", "updateLog.md"],
 
-      "/src/vuepress/": [
-        "",
-        "ready_for_blog.md",
-        "guideTransl.md",
-        "rfv_errors.md",
-        "plugins.md",
-      ],
+      "/src/vuepress/": ["", "ready_for_blog.md", "guideTransl.md", "rfv_errors.md", "plugins.md"],
 
       "/src/google/": ["", "analytics.md", "search_console.md"],
 
@@ -217,6 +219,8 @@ module.exports = {
       "/src/projects/debit-card/": ["", "v2_0_0.md", "v1_1_0.md", "v1_0_0.md"],
 
       "/src/projects/gimbal/": ["", "v1_0_0.md"],
+
+      "/src/projects/battery_to_wired/": ["", "v1_0_0.md"]
     },
   },
 };
