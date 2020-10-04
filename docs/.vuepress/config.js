@@ -101,16 +101,29 @@ module.exports = {
             text: "프로젝트",
             items: [
               {
-                text: "짐벌만들기",
-                link: "/src/projects/gimbal/"
+                text: "메이킹",
+                items: [
+                  {
+                    text: "짐벌만들기",
+                    link: "/src/projects/making/gimbal/"
+                  },
+                  {
+                    text: "체크카드 시스템 만들기",
+                    link: "/src/projects/making/debit-card/"
+                  },
+                  {
+                    text: "배터리>유선 전환하기",
+                    link: "/src/projects/making/battery_to_wired/"
+                  }
+                ]
               },
               {
-                text: "체크카드 시스템 만들기",
-                link: "/src/projects/debit-card/"
-              },
-              {
-                text: "배터리>유선 전환하기",
-                link: "/src/projects/battery_to_wired/"
+                text: "클론코딩",
+                items: [
+                  {
+                    text: "아직 준비중입니다.", link: "/"
+                  }
+                ]
               }
             ],
           },
@@ -167,12 +180,12 @@ module.exports = {
           {
             text: "Projects",
             items: [
-              { text: "making Gimbal", link: "/src/projects/gimabl/" },
+              { text: "making Gimbal", link: "/src/projects/making/gimabl/" },
               {
                 text: "making DebitCard System",
-                link: "/src/projects/debit-card/",
+                link: "/src/projects/making/debit-card/",
               },
-              { text: "Battery to Wired", link: "/src/projects/battery_to_wired/" }
+              { text: "Battery to Wired", link: "/src/projects/making/battery_to_wired/" }
             ],
           },
           {
@@ -216,11 +229,11 @@ module.exports = {
 
       "/src/making/processing/": [""],
 
-      "/src/projects/debit-card/": ["", "v2_0_0.md", "v1_1_0.md", "v1_0_0.md"],
+      "/src/projects/making/debit-card/": ["", "v2_0_0.md", "v1_1_0.md", "v1_0_0.md"],
 
-      "/src/projects/gimbal/": ["", "v1_0_0.md"],
+      "/src/projects/making/gimbal/": ["", "v1_0_0.md"],
 
-      "/src/projects/battery_to_wired/": ["", "v1_0_0.md"]
+      "/src/projects/making/battery_to_wired/": ["", "v1_0_0.md"]
     },
   },
 };
