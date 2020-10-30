@@ -7,7 +7,7 @@ JavaScript를 만들 때에, 우리는 LiveScript라는 이름을 주려고 했�
 하지만 개발을 거듭하면서, JavaScript는 완전히 독립적인 언어가 되어버렸죠. 그래서 이제는 Java와 아무런 관련이 없어요.
 
 :::right
-from. [공식 튜토리얼](https://javascript.info/) 중 [<1.1 An Introduction to JavaScript>](https://javascript.info/intro)
+from. [JavaScript.info](https://javascript.info/) - [<1.1 An Introduction to JavaScript>](https://javascript.info/intro)
 :::
 
 음, 그렇다고 하네요.
