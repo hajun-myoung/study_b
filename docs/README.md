@@ -35,6 +35,6 @@ footer: MIT Licensed | Using Vuepress framework | Copyright © 2020 HajunMyoung
 :::
 
 :::warning 깃허브 및 레포지토리는 여기로!
-[깃헙으로!](https://github.com/HaJunMyoung)  
-[깃헙 레포지토리로!](https://github.com/HaJunMyoung/study_b/)
+[깃헙으로!](https://github.com/hajun-myoung/)  
+[깃헙 레포지토리로!](https://github.com/hajun-myoung/study_b/)
 :::
