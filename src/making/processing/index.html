@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>프로세싱, 손쉬운 그래픽 상호작용 | 하준&#39;s 학습블로그</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    
+    <meta name="description" content="Hajun's study-blog. WELCOME!">
+    <link rel="preload" href="/study_b/assets/css/0.styles.c232e313.css" as="style"><link rel="preload" href="/study_b/assets/js/app.945a9c79.js" as="script"><link rel="preload" href="/study_b/assets/js/2.544aa08b.js" as="script"><link rel="preload" href="/study_b/assets/js/34.0b4e1d30.js" as="script"><link rel="prefetch" href="/study_b/assets/js/10.0912e6a0.js"><link rel="prefetch" href="/study_b/assets/js/11.18644f3d.js"><link rel="prefetch" href="/study_b/assets/js/12.d9c76529.js"><link rel="prefetch" href="/study_b/assets/js/13.bd183d2f.js"><link rel="prefetch" href="/study_b/assets/js/14.92eb50e5.js"><link rel="prefetch" href="/study_b/assets/js/15.59211f46.js"><link rel="prefetch" href="/study_b/assets/js/16.9534472e.js"><link rel="prefetch" href="/study_b/assets/js/17.4c2dafb0.js"><link rel="prefetch" href="/study_b/assets/js/18.3052ef2d.js"><link rel="prefetch" href="/study_b/assets/js/19.8a504b19.js"><link rel="prefetch" href="/study_b/assets/js/20.63276df2.js"><link rel="prefetch" href="/study_b/assets/js/21.26584302.js"><link rel="prefetch" href="/study_b/assets/js/22.862ace3d.js"><link rel="prefetch" href="/study_b/assets/js/23.daa732c1.js"><link rel="prefetch" href="/study_b/assets/js/24.8f58fc8b.js"><link rel="prefetch" href="/study_b/assets/js/25.f48e1fc4.js"><link rel="prefetch" href="/study_b/assets/js/26.affff62c.js"><link rel="prefetch" href="/study_b/assets/js/27.388ae95c.js"><link rel="prefetch" href="/study_b/assets/js/28.c4685f72.js"><link rel="prefetch" href="/study_b/assets/js/29.6b1e8c10.js"><link rel="prefetch" href="/study_b/assets/js/3.5be48e74.js"><link rel="prefetch" href="/study_b/assets/js/30.dd5aec40.js"><link rel="prefetch" href="/study_b/assets/js/31.e28fe632.js"><link rel="prefetch" href="/study_b/assets/js/32.6f369ca8.js"><link rel="prefetch" href="/study_b/assets/js/33.4ca15452.js"><link rel="prefetch" href="/study_b/assets/js/35.99abb275.js"><link rel="prefetch" href="/study_b/assets/js/36.53b445e2.js"><link rel="prefetch" href="/study_b/assets/js/37.dd69f6f7.js"><link rel="prefetch" href="/study_b/assets/js/38.8d07c3e5.js"><link rel="prefetch" href="/study_b/assets/js/39.b8ac5bd0.js"><link rel="prefetch" href="/study_b/assets/js/4.ce9e83af.js"><link rel="prefetch" href="/study_b/assets/js/40.1d5d4240.js"><link rel="prefetch" href="/study_b/assets/js/41.95d33409.js"><link rel="prefetch" href="/study_b/assets/js/42.42ab50c5.js"><link rel="prefetch" href="/study_b/assets/js/43.1d5bba83.js"><link rel="prefetch" href="/study_b/assets/js/5.de8408bc.js"><link rel="prefetch" href="/study_b/assets/js/6.f070d3c8.js"><link rel="prefetch" href="/study_b/assets/js/7.6a57dc09.js"><link rel="prefetch" href="/study_b/assets/js/8.e065ce85.js"><link rel="prefetch" href="/study_b/assets/js/9.444ea897.js">
+    <link rel="stylesheet" href="/study_b/assets/css/0.styles.c232e313.css">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175653340-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-175653340-1');
+    </script>
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/study_b/" class="home-link router-link-active"><!----> <span class="site-name">하준's 학습블로그</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/study_b/" class="nav-link">
+  홈
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="공부한 것들" class="dropdown-title"><span class="title">공부한 것들</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          블로그 셋팅
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/study_b/src/vuepress/" class="nav-link">
+  뷰프레스(VuePress)
+</a></li><li class="dropdown-subitem"><a href="/study_b/src/google/" class="nav-link">
+  구글(Google)
+</a></li></ul></li><li class="dropdown-item"><h4>
+          프로그래밍 언어
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/study_b/src/languages/c/" class="nav-link">
+  C
+</a></li><li class="dropdown-subitem"><a href="/study_b/src/languages/python/" class="nav-link">
+  Python
+</a></li><li class="dropdown-subitem"><a href="/study_b/src/languages/java_script/" class="nav-link">
+  JS
+</a></li><li class="dropdown-subitem"><a href="/study_b/src/languages/html_css/" class="nav-link">
+  HTML&amp;CSS
+</a></li></ul></li><li class="dropdown-item"><h4>
+          메이킹
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/study_b/src/making/arduino/" class="nav-link">
+  아두이노
+</a></li><li class="dropdown-subitem"><a href="/study_b/src/making/processing/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  프로세싱
+</a></li><li class="dropdown-subitem"><a href="/study_b/src/making/plus_alpha/" class="nav-link">
+  플러스알파
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="프로젝트" class="dropdown-title"><span class="title">프로젝트</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          메이킹
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/study_b/src/projects/making/gimbal/" class="nav-link">
+  짐벌만들기
+</a></li><li class="dropdown-subitem"><a href="/study_b/src/projects/making/debit-card/" class="nav-link">
+  체크카드 시스템 만들기
+</a></li><li class="dropdown-subitem"><a href="/study_b/src/projects/making/battery_to_wired/" class="nav-link">
+  배터리&gt;유선 전환하기
+</a></li></ul></li><li class="dropdown-item"><h4>
+          클론코딩
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/study_b/" class="nav-link">
+  아직 준비중입니다.
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="엔지니어링" class="dropdown-title"><span class="title">엔지니어링</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          음향
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/study_b/src/engineering/sound/basic/" class="nav-link">
+  학습기록: 음향기본
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">언어(Languages)</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/study_b/src/making/processing/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  한국어
+</a></li><li class="dropdown-item"><!----> <a href="/study_b/eng/" class="nav-link">
+  English
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/study_b/" class="nav-link">
+  홈
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="공부한 것들" class="dropdown-title"><span class="title">공부한 것들</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          블로그 셋팅
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/study_b/src/vuepress/" class="nav-link">
+  뷰프레스(VuePress)
+</a></li><li class="dropdown-subitem"><a href="/study_b/src/google/" class="nav-link">
+  구글(Google)
+</a></li></ul></li><li class="dropdown-item"><h4>
+          프로그래밍 언어
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/study_b/src/languages/c/" class="nav-link">
+  C
+</a></li><li class="dropdown-subitem"><a href="/study_b/src/languages/python/" class="nav-link">
+  Python
+</a></li><li class="dropdown-subitem"><a href="/study_b/src/languages/java_script/" class="nav-link">
+  JS
+</a></li><li class="dropdown-subitem"><a href="/study_b/src/languages/html_css/" class="nav-link">
+  HTML&amp;CSS
+</a></li></ul></li><li class="dropdown-item"><h4>
+          메이킹
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/study_b/src/making/arduino/" class="nav-link">
+  아두이노
+</a></li><li class="dropdown-subitem"><a href="/study_b/src/making/processing/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  프로세싱
+</a></li><li class="dropdown-subitem"><a href="/study_b/src/making/plus_alpha/" class="nav-link">
+  플러스알파
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="프로젝트" class="dropdown-title"><span class="title">프로젝트</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          메이킹
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/study_b/src/projects/making/gimbal/" class="nav-link">
+  짐벌만들기
+</a></li><li class="dropdown-subitem"><a href="/study_b/src/projects/making/debit-card/" class="nav-link">
+  체크카드 시스템 만들기
+</a></li><li class="dropdown-subitem"><a href="/study_b/src/projects/making/battery_to_wired/" class="nav-link">
+  배터리&gt;유선 전환하기
+</a></li></ul></li><li class="dropdown-item"><h4>
+          클론코딩
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/study_b/" class="nav-link">
+  아직 준비중입니다.
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="엔지니어링" class="dropdown-title"><span class="title">엔지니어링</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          음향
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/study_b/src/engineering/sound/basic/" class="nav-link">
+  학습기록: 음향기본
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">언어(Languages)</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/study_b/src/making/processing/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  한국어
+</a></li><li class="dropdown-item"><!----> <a href="/study_b/eng/" class="nav-link">
+  English
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/study_b/src/making/processing/" aria-current="page" class="active sidebar-link">프로세싱, 손쉬운 그래픽 상호작용</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/study_b/src/making/processing/#그래서-프로세싱이-뭔가요" class="sidebar-link">그래서, 프로세싱이 뭔가요?</a></li><li class="sidebar-sub-header"><a href="/study_b/src/making/processing/#아두이노와-프로세싱" class="sidebar-link">아두이노와 프로세싱</a></li></ul></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="프로세싱-손쉬운-그래픽-상호작용"><a href="#프로세싱-손쉬운-그래픽-상호작용" class="header-anchor">#</a> 프로세싱, 손쉬운 그래픽 상호작용</h1> <p>프로세싱은 아두이노와 상당히 비슷한 느낌을 제공해요. 직접 코딩하게 되는 UI의 구성, 시리얼 모니터의 사용, 시리얼 포트를 통한 아두이노-프로세싱 간의 쉬운 연결성까지... 사용하다보면 '형제 IDE 같다'는 생각을 하게 된답니다. 그럼에도 불구하고, 프로세싱 '자체만으로는' 아두이노와 역할이 분명히 구분되어 있습니다.</p> <div class="custom-block tip"><p class="custom-block-title">IDE가 뭐죠?</p> <p>Integrated Development Environment, 한글로는 '통합 개발 환경' 이에요.<br>
+쉽게 말해서, 여러분이 코딩하고 컴파일(빌드)하고, 디버그하게 해 주는 환경을 지칭합니다. 대표적으로 코드블럭이나 Dev C++가 여기에 해당돼요.<br>
+Processing이 제공하는 코딩 환경에는 디버깅 기능이 있지는 않아요. 하지만 텍스트 편집(코딩), 컴파일, 배포가 가능하니 일종의 IDE죠.</p></div> <h2 id="그래서-프로세싱이-뭔가요"><a href="#그래서-프로세싱이-뭔가요" class="header-anchor">#</a> 그래서, 프로세싱이 뭔가요?</h2> <p>프로세싱은, 위 문단에서 말한것처럼 하나의 IDE(통합 개발 환경)이자, Python, C와 같은 '언어'에요. 프로세싱의 개발자가 '프로세싱'이라는 언어를 만든 것이고, 이를 코딩하기 위한 개발환경도 제공한 것이죠. <a href="https://processing.org/" target="_blank" rel="noopener noreferrer">프로세싱 공식 사이트<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>에 따르면,</p> <div class="theorem"><p class="title">Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts.</p><p>프로세싱은 하나의 유연한 소프트웨어 스케치북이자 언어입니다. 시각 예술을 '코딩'하는 방법을 가르치기 위해 고안되었죠.</p> <div class="custom-block right"><p>from. <a href="https://processing.org/" target="_blank" rel="noopener noreferrer">Processing Official site<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></div></div><p>라네요.</p> <p>이러한 프로세싱의 특징은, 그야말로 '시각화'를 너무도 간단하게 접근할 수 있다는 점입니다.<br>
+파이썬과 같은 언어가 고레벨(인간과 가까운)이어서 프로그래밍의 본질에 집중하여 공부하기 좋듯이,<br>
+프로세싱 역시 시각화를 위한 본질을 공부하기에 정말 좋아요.</p> <h2 id="아두이노와-프로세싱"><a href="#아두이노와-프로세싱" class="header-anchor">#</a> 아두이노와 프로세싱</h2> <p>아두이노의 주 역할이 센서값을 읽고, 연산하고, 처리하고, 동작하는 일련의 과정(흐름)이라면,<br>
+프로세싱의 주 역할은 여러가지 값들, 정보들을 그려내고 표현하여 출력하는거에요.</p> <p>아두이노와 같이 사용할 때 프로세싱은 주로 다음과 같은 역할을 수행한답니다.</p> <ul><li><p>아두이노가 읽어온 값을 화면에 출력</p> <ul><li>아두이노가 읽어온 값을 바탕으로 특정한 그림을 드로잉</li> <li>사용자가 원하는 행동을 신호로 변경하여 아두이노에게 전송(아두이노 제어)</li></ul></li></ul> <div class="custom-block warning"><p class="custom-block-title">감이 조금 오시나요?</p> <p>맞아요, <strong>저는 주로 아두이노와 함께 쓰이는, 시각화 도구로서의 프로세싱을 많이 다룰거랍니다.</strong></p></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/study_b/assets/js/app.945a9c79.js" defer></script><script src="/study_b/assets/js/2.544aa08b.js" defer></script><script src="/study_b/assets/js/34.0b4e1d30.js" defer></script>
+  </body>
+</html>
